@@ -1,0 +1,49 @@
+/* about me page */
+/* default navigation */
+header{
+    width: 960px;
+    background: #4aaaa5;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-left:5px;
+    margin-right:5px;
+    display: inline;
+    float: right;
+}
+
+
+
+/*About me box content */
+h2,p{
+    color: #777777;
+}
+/*this is the line below the About Me */
+#horizontal-line{
+    width:960px;
+    height:2px;
+    background: silver;
+}
+#aboutMe{
+    width: 960px;
+    padding: 50px;
+    margin: 20px;
+    float:left;
+}
+img{
+    float: left;
+    width: 175px;
+    height: 225px;
+    
+}
+#floated{
+    float: left;
+}
+footer{
+    clear: both;
+}
