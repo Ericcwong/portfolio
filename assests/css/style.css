@@ -1,35 +1,46 @@
 /* about me page */
 /* default navigation */
-#container{
+
+.container{
     max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
 }
-header{
-    max-width: 960px;
+hr{
     margin: auto;
-  
-#nav{
+    border: 1.25px solid #cccccc;
     
-}    
 }
+
 h1{
-    width: 150px;
-    padding: 20px;
+    display: inline;
+    padding: 40px 20px 30px 20px;
     background: #4aaaa5;
+    color:#ffffff;
 
 }
+
 ul{
+    float: right;
+    display: inline-block;
+    /* text-align: right; */
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    
 }
 li{
-    margin-left:5px;
-    margin-right:5px;
     display: inline;
-    float: right;
+    /* border-right: 1px solid; */
+}
+li:not(:first-child):before {
+    content: " | ";
+    margin: 10px;
+    color:#aba4a8;
 }
 a{
     text-decoration: none;
+    color: #aba4a8;
+    
 }
 
 
@@ -37,15 +48,21 @@ a{
 h2,p{
     color: #777777;
 }
+h2{
+    margin-left: 10px;
+}
 /*this is the line below the About Me */
 #horizontal-line{
-    width:960px;
+    width:90%;
     height:2px;
     background: #dddddd;
 }
 #aboutMe{
     max-width:960px;
-    margin: auto;
+    margin: 40px auto;
+    border-style: solid;
+    border-color: #cccccc;
+    overflow: hidden;
     
 }
 img{
@@ -55,9 +72,10 @@ img{
     margin: 20px;
     
 }
-#floated{
+/* #floated{
     float: left;
-}
+} */
 footer{
     clear: both;
+    text-align: center;
 }
