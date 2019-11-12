@@ -6,7 +6,10 @@
 header{
     max-width: 960px;
     margin: auto;
+  
+#nav{
     
+}    
 }
 h1{
     width: 150px;
@@ -25,7 +28,9 @@ li{
     display: inline;
     float: right;
 }
-
+a{
+    text-decoration: none;
+}
 
 
 /*About me box content */
@@ -36,7 +41,7 @@ h2,p{
 #horizontal-line{
     width:960px;
     height:2px;
-    background: silver;
+    background: #dddddd;
 }
 #aboutMe{
     max-width:960px;
@@ -47,10 +52,11 @@ img{
     float: left;
     width: 175px;
     height: 225px;
+    margin: 20px;
     
 }
 #floated{
-    /* float: left; */
+    float: left;
 }
 footer{
     clear: both;
