@@ -122,3 +122,24 @@ button{
     color: #ffffff;
     background-color: #4aaaa5;
 }
+
+/*Portfolio*/
+.content img{
+    max-width: 200px;
+    max-height: 125px;
+    margin-right: 20px;
+    position: relative;
+}
+  .column{
+      flex: 50%;
+      padding: 0 4px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+
+.textBlock{
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    color: #ffffff;
+}
