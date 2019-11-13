@@ -1,9 +1,15 @@
 /* about me page */
 /* default navigation */
+body{
+    /* z-index: -1;
+    background-color: #4aaaa5;
+    background-image: url("../images/triangle-mosaic.png");
+     */
+}
 
 .container{
-    max-width: 960px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
     background: #ffffff;
     overflow: hidden;
 }
@@ -30,12 +36,14 @@ ul{
 }
 li{
     display: inline;
+    font-size: 17px;
     /* border-right: 1px solid; */
 }
 li:not(:first-child):before {
     content: " | ";
     margin: 10px;
     color:#aba4a8;
+    
 }
 a{
     text-decoration: none;
@@ -62,20 +70,21 @@ h2{
     margin: 40px auto;
     border-style: solid;
     border-color: #cccccc;
+    background: #ffffff;
     overflow: hidden;
     
 }
-img{
+#selfie{
     float: left;
     width: 175px;
     height: 225px;
     margin: 20px;
     
 }
-/* #floated{
-    float: left;
-} */
+
+
 footer{
     clear: both;
     text-align: center;
+    background: #666666;
 }
