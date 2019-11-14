@@ -2,6 +2,7 @@
 /* default navigation */
 body{
     background-color: #4aaaa5;
+    z-index: 2;
     background-image: url("../images/triangle-mosaic.png");
     
 }
@@ -54,13 +55,14 @@ a{
 }
 
 footer{
+    border-top: 10px solid #4aaaa5;
     width: 100%;
     left: 0;
     bottom: 0;
     position: fixed;
     clear: both;
     text-align: center;
-    padding: 10px;
+    padding: 4px;
     background: #666666;
 }
 #copyRight{
@@ -71,13 +73,14 @@ footer{
 p, input, label{
     color: #777777;
 }
-h2{
+#title{
     color: #4aaaa5;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 /*this is the line below the About Me */
 #horizontal-line{
-    width:90%;
+    width:96%;
+    margin-left: 20px;
     height:2px;
     background: #dddddd;
 }
@@ -88,7 +91,9 @@ h2{
     border-color: #cccccc;
     background: #ffffff;
     overflow: hidden;
-    
+}
+.content h2{
+    color:#4aaaa5;
 }
 #selfie{
     float: left;
@@ -115,33 +120,33 @@ input, label, textarea{
 #submit{
     width: 40%;
     padding: 15px 8px 15px 8px;
-    margin-left: 10px;
+    margin-left: 11px;
 }
 button{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     background-color: #4aaaa5;
+    border: none;
 }
 
 /*Portfolio*/
 .row{
-    width:50%;
     float: left;
 }
 .content img{
-    max-width: 250px;
-    max-height: 150px;
-    width: 50%
+    max-width: 190px;
+    max-height: 300px;
 
 }
 .column{
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       margin-left: 20px;
       position: relative;
   }
 
 
 .column .text{
+    font-size: 13px;
     position: absolute;
     z-index: 1;
     /* top: 55%; */
@@ -154,4 +159,6 @@ button{
 .text h2{
     color: #ffffff;
     background-color: #4aaaa5;
+    padding: 10px;
+    width: 170px;
 }
